@@ -1,8 +1,8 @@
-## spfx-property-types
+# spfx-property-types
 
 This is where you include your web part docs.
 
-### Building the code
+## Building the code
 
 ```bash
 git clone the repo
