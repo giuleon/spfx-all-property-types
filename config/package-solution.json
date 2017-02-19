@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-property-types-client-side-solution",
+    "id": "82d4d4da-5ebd-4ec9-8ab7-f3d230bd4067",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-property-types.sppkg"
+  }
+}

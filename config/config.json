@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/sharePointFrameworkPropertyTypes/SharePointFrameworkPropertyTypesWebPart.js",
+      "manifest": "./src/webparts/sharePointFrameworkPropertyTypes/SharePointFrameworkPropertyTypesWebPart.manifest.json",
+      "outputPath": "./dist/share-point-framework-property-types.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "sharePointFrameworkPropertyTypesStrings": "webparts/sharePointFrameworkPropertyTypes/loc/{locale}.js"
+  }
+}
