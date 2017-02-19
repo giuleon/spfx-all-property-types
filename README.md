@@ -15,7 +15,7 @@ This is the list of properties available out of the box in the module '@microsof
 * Toggle
 * Custom
 
-![alt text](https://github.com/giuleon/spfx-react-chart/blob/master/spfx-react-chart.gif "Demo")
+![alt text](https://github.com/giuleon/spfx-react-chart/blob/master/spfx-all-property-types.gif "Demo")
 
 As you can see in the image above, I used a reactive property bread, this means That every changes, will trigger a reaction from the part web client, naturally it's also possible configure the behaviour to non-reactive mode, in this last case will be necessary confirm every changes with a button.
 
