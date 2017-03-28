@@ -1,4 +1,4 @@
-# spfx-property-types
+# SharePoint Framework Property Types
 
 The SharePoint Framework right pane is the topic of this article, definitely this is a good helpful functionality that allow to configure the client web part in reactive or not reactive way.
 We have seen really simple scenarios with the properties, like text field, however the business cases are not ever simple, therefore we need to handle complex properties as well dropdown, checkbox, multiple line, toggle, link, slider and so on.
