@@ -15,6 +15,8 @@ This is the list of properties available out of the box in the module '@microsof
 * Toggle
 * Custom
 
+[READ MY ARTICLE ON MY BLOG: http://www.delucagiuliano.com/sharepoint-framework-all-property-types/](http://www.delucagiuliano.com/sharepoint-framework-all-property-types/)
+
 ![alt text](https://github.com/giuleon/spfx-all-property-types/blob/master/spfx-all-property-types.gif "Demo")
 
 As you can see in the image above, I used a reactive property pane, this means that every changes, will trigger a reaction from the part web client, naturally it's also possible configure the behaviour to non-reactive mode, in this last case will be necessary confirm every changes with a button.
