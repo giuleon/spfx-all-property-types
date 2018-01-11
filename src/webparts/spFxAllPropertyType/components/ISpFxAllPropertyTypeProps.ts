@@ -1,4 +1,4 @@
-export interface ISharePointFrameworkPropertyTypesProps {
+export interface ISpFxAllPropertyTypeProps {
   name: string;
   bio: string;
   choiceLike: boolean;

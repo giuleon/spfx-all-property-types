@@ -1,7 +1,8 @@
 {
   "@microsoft/generator-sharepoint": {
-    "libraryName": "spfx-property-types",
-    "libraryId": "82d4d4da-5ebd-4ec9-8ab7-f3d230bd4067",
-    "framework": "react"
+    "version": "1.4.0",
+    "libraryName": "spfx-all-property-types",
+    "libraryId": "88295984-d812-4a5e-aa9f-790b0f3ebab9",
+    "environment": "spo"
   }
 }

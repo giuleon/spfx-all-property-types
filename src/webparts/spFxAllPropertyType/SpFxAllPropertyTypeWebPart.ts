@@ -13,16 +13,27 @@ import {
   PropertyPaneLink
 } from '@microsoft/sp-webpart-base';
 
-import * as strings from 'sharePointFrameworkPropertyTypesStrings';
-import SharePointFrameworkPropertyTypes from './components/SharePointFrameworkPropertyTypes';
-import { ISharePointFrameworkPropertyTypesProps } from './components/ISharePointFrameworkPropertyTypesProps';
-import { ISharePointFrameworkPropertyTypesWebPartProps } from './ISharePointFrameworkPropertyTypesWebPartProps';
+import * as strings from 'SpFxAllPropertyTypeWebPartStrings';
+import SpFxAllPropertyType from './components/SpFxAllPropertyType';
+import { ISpFxAllPropertyTypeProps } from './components/ISpFxAllPropertyTypeProps';
 
-export default class SharePointFrameworkPropertyTypesWebPart extends BaseClientSideWebPart<ISharePointFrameworkPropertyTypesWebPartProps> {
+export interface ISpFxAllPropertyTypeWebPartProps {
+  name: string;
+  bio: string;
+  choiceLike: boolean;
+  loveOffice365: string;
+  receiveEmails: boolean;
+  heroes: string;
+  maxResultsProp: number;
+  fileType: string;
+  link: string;
+}
+
+export default class SpFxAllPropertyTypeWebPart extends BaseClientSideWebPart<ISpFxAllPropertyTypeWebPartProps> {
 
   public render(): void {
-    const element: React.ReactElement<ISharePointFrameworkPropertyTypesProps > = React.createElement(
-      SharePointFrameworkPropertyTypes,
+    const element: React.ReactElement<ISpFxAllPropertyTypeProps > = React.createElement(
+      SpFxAllPropertyType,
       {
         name: this.properties.name,
         bio: this.properties.bio,

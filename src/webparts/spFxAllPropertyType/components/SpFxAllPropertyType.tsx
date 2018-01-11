@@ -1,13 +1,14 @@
 import * as React from 'react';
+import styles from './SpFxAllPropertyType.module.scss';
 import { css } from 'office-ui-fabric-react';
-import styles from './SharePointFrameworkPropertyTypes.module.scss';
-import { ISharePointFrameworkPropertyTypesProps } from './ISharePointFrameworkPropertyTypesProps';
+import { ISpFxAllPropertyTypeProps } from './ISpFxAllPropertyTypeProps';
+import { escape } from '@microsoft/sp-lodash-subset';
 
-export default class SharePointFrameworkPropertyTypes extends React.Component<ISharePointFrameworkPropertyTypesProps, void> {
-  public render(): React.ReactElement<ISharePointFrameworkPropertyTypesProps> {
+export default class SpFxAllPropertyType extends React.Component<ISpFxAllPropertyTypeProps, {}> {
+  public render(): React.ReactElement<ISpFxAllPropertyTypeProps> {
     return (
-      <div className={styles.helloWorld}>
-        <div className={styles.container}>
+      <div className={ styles.spFxAllPropertyType }>
+        <div className={ styles.container }>
           <div className={css('ms-Grid-row ms-bgColor-themeDark ms-fontColor-white', styles.row)}>
             <div className='ms-Grid-col ms-u-lg10 ms-u-xl8 ms-u-xlPush2 ms-u-lgPush1'>
               <span className='ms-font-xl ms-fontColor-white'>
@@ -41,7 +42,7 @@ export default class SharePointFrameworkPropertyTypes extends React.Component<IS
                 Website: {this.props.link}
               </p>
               <a className={css('ms-Button', styles.button)}
-                 href='https://github.com/SharePoint/sp-dev-docs/wiki'>
+                href='https://github.com/SharePoint/sp-dev-docs/wiki'>
                 <span className='ms-Button-label'>Learn more</span>
               </a>
             </div>

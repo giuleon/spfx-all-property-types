@@ -1,4 +1,4 @@
-declare interface ISharePointFrameworkPropertyTypesStrings {
+declare interface ISpFxAllPropertyTypeWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
   AdvancedGroupName: string;
@@ -13,7 +13,7 @@ declare interface ISharePointFrameworkPropertyTypesStrings {
   FileTypePropFieldLabel: string;
 }
 
-declare module 'sharePointFrameworkPropertyTypesStrings' {
-  const strings: ISharePointFrameworkPropertyTypesStrings;
+declare module 'SpFxAllPropertyTypeWebPartStrings' {
+  const strings: ISpFxAllPropertyTypeWebPartStrings;
   export = strings;
 }

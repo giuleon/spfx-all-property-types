@@ -1,10 +1,12 @@
 {
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "spfx-property-types-client-side-solution",
-    "id": "82d4d4da-5ebd-4ec9-8ab7-f3d230bd4067",
-    "version": "1.0.0.0"
+    "name": "spfx-all-property-types-client-side-solution",
+    "id": "88295984-d812-4a5e-aa9f-790b0f3ebab9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
   },
   "paths": {
-    "zippedPackage": "solution/spfx-property-types.sppkg"
+    "zippedPackage": "solution/spfx-all-property-types.sppkg"
   }
 }
